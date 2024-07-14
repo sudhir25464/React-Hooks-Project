@@ -25,8 +25,8 @@ function UseReducerHook() {
     return (
         <>
 
-            <div className=' flex justify-center justify-items-center items-center p-20 bg-white'>
-
+            <div className='  justify-center justify-items-center items-center p-20 bg-white'>
+            <h2 className='p-5'>Use Reducer Hooks</h2>
                 < div className="">
 
                     <p className='mx-10 p-3'>value : {count}</p>
