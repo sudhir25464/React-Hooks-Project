@@ -7,6 +7,7 @@ import UseReducerHook from './component/UseReducerHook'
 import TodoApp from './component/TodoApp'
 import UseMemoHook from './component/UseMemoHook'
 import Todo from './component/Todo'
+import UseCallback from './component/UseCallback'
 function App() {
   return (
    <>
@@ -17,7 +18,9 @@ function App() {
    </Routes>
    <UseMemoHook/>
    <Todo/>
+   
   <UseReducerHook/>
+  <UseCallback/>
   {/* <TodoApp/> */}
    </>
   )
